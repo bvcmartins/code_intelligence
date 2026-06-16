@@ -1,0 +1,7 @@
+# Backbone deps. Pin on the workstation to match your env.
+google-cloud-storage>=2.16     # GCS streaming of the AST/config dump
+orjson>=3.9                    # fast JSON for the many tree-sitter files
+PyYAML>=6.0                    # gateway/ingress/manifest/openapi YAML config
+graphviz>=0.20                 # dot generation + SVG/PDF render (needs system graphviz)
+jinja2>=3.1                    # HTML report templating
+# System dependency: graphviz binaries (`dot`) must be installed for SVG/PDF.
